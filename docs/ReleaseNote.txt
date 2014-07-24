@@ -1,0 +1,126 @@
+0.8.1429.3---------------- 2014.7.16
+    (1)Fix a issue when count system_server_lowmem in test result
+    (2)NST server is available in this version. You can check every testplan in http://3cnd04138/ConnectStation.aspx. Please add your system in the WebPage, then you can search your testplan's name and check the status
+    
+
+0.8.1428.3---------------- 2014.7.9
+    (1)Add timeout feature if the DUT hangs for 10s
+    (2)Update the "phone.py" by the Script Team to check Crash to support for ANR
+    (3)Some tiny errors fix
+
+
+0.8.1427.1---------------- 2014.6.30
+    (1)Update the nta-0.0.6 to nta-0.0.7
+    (2)Fix an issue about the Exception when Phone try to back to start window
+    (3)Support OutOfMemery logs. Need to enable the "outofmemory-flag" in the testplan. 'nst_mtbf_template.testplan' is updated
+    (4)Update the "phone.py" & "uitestcase.py" by the Script Team
+    (5)Please run the testplan first before you run any case by Jython, since testplan will generate the cfg file for the DUT to support the Jython
+    (6)'rtcookie.txt' & 'rdcookie.txt' will be generated automatically by NST in the SDCard when start a testplan. You don't have to add them in SDCard manually.
+
+
+
+0.8.1426.3---------------- 2014.6.25
+    (1)Rearrange the Folders of NST to make them clear
+    (2)Change the rule during pull logs from DUT. No more duplicated logs will be copied
+    (3)Delete 'Device_MT_Config'
+    (4)Change the testplan. Please DO modify the testplan before start the test
+    (5)Change the testresult & logs folder to match each testplan
+    (6)Support Ramdump log monitor on AoL15.1. Please make sure 'rtcookie.txt' & 'rdcookie.txt' are in the SDCard
+    (7)Fix a error about the task maybe finish abnormally
+
+
+0.8.1425.2---------------- 2014.6.17
+    (1)Update 'phone.py' due to UI change in AoL15.1
+    
+
+0.8.1424.4---------------- 2014.6.12
+    (1)Add IntroductionToNST.mht in doc folder
+    (2)Add NST_Script_API.mht in doc folder
+    (3)Move ReleaseNote.txt to doc folder
+
+
+0.8.1422.5---------------- 2014.5.30
+    (1)"final" folder is move back to "TestResult" folder
+    (2)Fix the issue that adb log maybe missing when catching log from DUT
+    (3)More trace & log monitor information support in TestResult
+    (4)All NSTRunner command logs will save to "NSTRunnerCommandLogs"
+
+
+0.8.1422.2---------------- 2014.5.27
+    (1)Fix the error note when catching log from DUT
+
+
+0.8.1421.3---------------- 2014.5.21
+    (1)Multiple Tasks support! Please DO modify the “testplan.xml” file before start the test
+    (2)Update the nta-0.0.5 to nta-0.0.6
+    (3)Remove “nta.ini”
+    (4)Fix an issue when "Long Press"
+    (5)More trace & log monitor support
+
+
+0.8.1420.5---------------- 2014.5.16
+	(1)Chinese character support;
+	(2)Fix pressKey twice in phone.py
+    (3)Fix ZoomIn & ZoomOut
+
+
+0.8.1415.5---------------- 2014.4.11
+	(1)Support the new functionalities proposed from scripting team;
+	(2)New script template support;
+	(3)Aol 3.0 resource-id support;
+	(4)other issue fix;
+0.8.1408.5---------------- 2014.2.21
+	(1)Fix the time-zone difference issue between log file name and log content;
+
+0.8.1406.5---------------- 2014.2.7
+	(1)Fix the 'hidden view' issue, and runner will scroll the view to the center or the 'delta' position;
+	(2)Add the touch method in phone object, which support the shell tap method and will solve the ineffective touch in some 'browser case';
+
+0.8.1405.1---------------- 2014.1.27
+	(1)Fix the pox attribute error when tear down;
+	(2)Fix the possible error when zoom out/in;
+	(3)multiViewSelector is supported in the phone, which will return all the matched views in list;
+	(4)Regex Expression is supported in the find viewSelector and multiViewSelector;
+	   sample script:
+
+			'''
+			This script will find all the views of which the text is one Digit, typically in the calculator view;
+			'''
+			views = self.phone.multiViewSelector({"text":"\\d"})
+        
+			'''
+			This loop will touch all the views one by one, also index is supported;
+			'''
+			for view in views:
+				if view.isExist():
+					view.touch(MonkeyDevice.DOWN_AND_UP)
+					self.phone.waitForUpdateOrSleep(1)
+
+0.8.1405.0---------------- 2014.1.26
+(1)NST Runner, provides an easier way to find view;
+
+sample script:
+	    self.phone.viewSelector(patternMap={"text":"Settings"})\
+                        .touch(MonkeyDevice.DOWN_AND_UP)
+            self.phone.waitForUpdateOrSleep(3)
+            
+            
+            self.phone.viewSelector(patternMap={"text":"Accessibility"})\
+                        .touch(MonkeyDevice.DOWN_AND_UP)
+            self.phone.waitForUpdateOrSleep(3)
+            
+            refPattern =  {"text":"Speak passwordss"}
+            pattern = {"class":"android.widget.CheckBox"}
+            
+            self.phone.viewSelector(patternMap=pattern,referencePatternMap=refPattern)\
+                        .touch(MonkeyDevice.DOWN_AND_UP)
+
+This will greatly reduce the dump and find view effort, many thanks to Evan for his requirement;
+(2)Bug fix, update the unlock method for N Phone;
+
+
+0.8.1404.5 --------------- 2014.1.24
+
+
+(1)NST Runner Dump Update, there may a duplicated dump before;
+(2)NST Report overview functionalities released;

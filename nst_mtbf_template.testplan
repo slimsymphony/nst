@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testplan loops="1" syncQRDLog="true">
+
+	<target-device deviceid="ff0a47" device-type="AoL15" outofmemory-flag="False" ref-deviceid="995b634b" ref-device-type="N"/>
+	<!--target-device deviceid="14afd00" device-type="AoL15"/-->
+	<!--target-device deviceid="c2e42ab" device-type="AoL2"/-->
+	<!--target-device deviceid="995b62c5" device-type="N"/-->
+
+	
+	<testtask  name="MTBF Basic Part" id="1" type="nstrunner"  timeout="40">
+		<testcase no="5900.0101" name="" location="./nstrunner/cases/test/MTBF59000101_HomeScreenSwipeLeftAndRight.py" refPhone = "False" loops="1"/>
+		<testcase no="5900.0101" name="" location="./nstrunner/cases/test/MTBF59000101_HomeScreenSwipeLeftAndRight.py" refPhone = "False" loops="1"/>
+		<testcase no="5900.0101" name="" location="./nstrunner/cases/test/MTBF59000101_HomeScreenSwipeLeftAndRight.py" refPhone = "False" loops="1"/>
+		<testcase no="5900.0101" name="" location="./nstrunner/cases/test/MTBF59000101_HomeScreenSwipeLeftAndRight.py" refPhone = "False" loops="1"/>
+		<testcase no="5900.0101" name="" location="./nstrunner/cases/test/MTBF59000101_HomeScreenSwipeLeftAndRight.py" refPhone = "False" loops="1"/>
+	</testtask>
+
+	<testtask  name="MTBF Advanced Part" id="2" type="nstrunner"  timeout="60">
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+		<testcase no="5104.1203" name="" location="./nstrunner/cases/test/MTBF51041203_CalendarEventExpiration.py" refPhone = "False" loops="1"/>
+	</testtask>
+
+	<testtask  name="MTBF MST Part" id="3" type="nstrunner"  timeout="20">
+		<testcase no="0000.0001" name="" location="./nstrunner/cases/test/MTBF0000001_MST_AppList_Alarms.py" refPhone = "False" loops="1"/>
+		<testcase no="0000.0001" name="" location="./nstrunner/cases/test/MTBF0000001_MST_AppList_Alarms.py" refPhone = "False" loops="1"/>
+		<testcase no="0000.0001" name="" location="./nstrunner/cases/test/MTBF0000001_MST_AppList_Alarms.py" refPhone = "False" loops="1"/>
+		<testcase no="0000.0001" name="" location="./nstrunner/cases/test/MTBF0000001_MST_AppList_Alarms.py" refPhone = "False" loops="1"/>
+		<testcase no="0000.0001" name="" location="./nstrunner/cases/test/MTBF0000001_MST_AppList_Alarms.py" refPhone = "False" loops="1"/>
+		<testcase no="0000.0001" name="" location="./nstrunner/cases/test/MTBF0000001_MST_AppList_Alarms.py" refPhone = "False" loops="1"/>
+	</testtask>
+</testplan>

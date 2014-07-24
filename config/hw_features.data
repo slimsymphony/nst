@@ -1,0 +1,121 @@
+[default]
+
+##############AoL##################
+[AoL-MT]
+SendEvent_Finger =		"0003 0039 %s";
+SendEvent_ATX =			"0003 0035 %s";
+SendEvent_ATY =			"0003 0036 %s";
+SendEvent_SwitchFinger = 	"0003 002f %s"; 
+SendEvent_Touch = 		"0003 003a 000000c7";
+SendEvent_UnTouch = 		"0003 003a 00000000";
+SendEvent_Submit = 		"0000 0000 00000000";
+SendEventCmd = 		"sendevent";
+TouchEvent =			"/dev/input/event3";
+Event_X = "0035";
+Event_Y = "0036";
+Width = "480";
+Height = "800";
+
+##############AoL2##################
+[AoL2-MT]
+SendEvent_Finger =		"0003 0039 %s";
+SendEvent_ATX =			"0003 0035 %s";
+SendEvent_ATY =			"0003 0036 %s";
+SendEvent_SwitchFinger = 	"0003 002f %s"; 
+SendEvent_Touch = 		"0003 003a 000000c7";
+SendEvent_UnTouch = 		"0003 003a 00000000";
+SendEvent_Submit = 		"0000 0000 00000000";
+SendEventCmd = 		"sendevent";
+TouchEvent =			"/dev/input/event3";
+Event_X = "0035";
+Event_Y = "0036";
+Width = "480";
+Height = "800";
+
+#################AoL3########################
+[AoL3-MT]
+SendEvent_Finger =                       "0003 0039 %s";
+SendEvent_ATX =                                            "0003 0035 %s";
+SendEvent_ATY =                                            "0003 0036 %s";
+SendEvent_SwitchFinger =          "0003 002f %s"; 
+SendEvent_Touch =                       "0001 014a 00000001";
+SendEvent_UnTouch =                                 "0001 014a 00000000";
+SendEvent_Submit =                     "0000 0000 00000000";
+SendEventCmd =                             "sendevent";
+TouchEvent =                                    "/dev/input/event0";
+Event_X = "0035";
+Event_Y = "0036";
+Width = "720";
+Height = "1280";
+
+#################AoL15########################
+[AoL15-MT]
+SendEvent_Finger =                       "0003 0039 %s";
+SendEvent_ATX =                                            "0003 0035 %s";
+SendEvent_ATY =                                            "0003 0036 %s";
+SendEvent_SwitchFinger =          "0003 002f %s"; 
+SendEvent_Touch =                       "0001 014a 00000001";
+SendEvent_UnTouch =                                 "0001 014a 00000000";
+SendEvent_Submit =                     "0000 0000 00000000";
+SendEventCmd =                             "sendevent";
+TouchEvent =                                    "/dev/input/event0";
+Event_X = "0035";
+Event_Y = "0036";
+Width = "720";
+Height = "1280";
+
+##################N#######################
+[N]
+SendEvent_Finger =		"0003 0039 %s";
+SendEvent_ATX =		"0003 0035 %s";
+SendEvent_ATY =		"0003 0036 %s";
+SendEvent_BeginFinger =	"0003 0032 00000001";
+SendEvent_EndFinger =		"0000 0002 00000000";
+SendEvent_Touch =		"0001 014a 00000001";
+SendEvent_UnTouch =		"0001 014a 00000000";
+SendEvent_Submit =		"0000 0000 00000000";
+SendEventCmd = 		"sendevent";
+TouchEvent =			"/dev/input/event0";
+Event_X = "0035";
+Event_Y = "0036";
+
+Width = "480";
+Height = "800";
+
+##################N1#######################
+[N1]
+SendEvent_Finger =		"0003 0039 %s";
+SendEvent_ATX =		"0003 0035 %s";
+SendEvent_ATY =		"0003 0036 %s";
+SendEvent_BeginFinger =	"0003 0032 00000001";
+SendEvent_EndFinger =		"0000 0002 00000000";
+SendEvent_Touch =		"0001 014a 00000001";
+SendEvent_UnTouch =		"0001 014a 00000000";
+SendEvent_Submit =		"0000 0000 00000000";
+SendEventCmd = 		"sendevent";
+TouchEvent =			"/dev/input/event0";
+Event_X = "0035";
+Event_Y = "0036";
+
+Width = "480";
+Height = "800";
+
+##################N2#######################
+[N2]
+SendEvent_Finger =		"0003 0039 %s";
+SendEvent_ATX =		"0003 0035 %s";
+SendEvent_ATY =		"0003 0036 %s";
+SendEvent_BeginFinger =	"0003 0032 00000001";
+SendEvent_EndFinger =		"0000 0002 00000000";
+SendEvent_Touch =		"0001 014a 00000001";
+SendEvent_UnTouch =		"0001 014a 00000000";
+SendEvent_Submit =		"0000 0000 00000000";
+SendEventCmd = 		"sendevent";
+TouchEvent =			"/dev/input/event0";
+Event_X = "0035";
+Event_Y = "0036";
+
+Width = "480";
+Height = "800";
+
+###################N#######################

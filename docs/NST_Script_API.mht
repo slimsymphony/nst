@@ -1,0 +1,2239 @@
+MIME-Version: 1.0
+X-Document-Type: Workbook
+Content-Type: multipart/related; boundary="----=_NextPart_01CF864E.E2084E80"
+
+This document is a Single File Web Page, also known as a Web Archive file.  If you are seeing this message, your browser or editor doesn't support Web Archive files.  Please download a browser that supports Web Archive, such as Windows® Internet Explorer®.
+
+------=_NextPart_01CF864E.E2084E80
+Content-Location: file:///C:/27708E49/NST_Script_API.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name=3D"Excel Workbook Frameset">
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 15">
+<link rel=3DFile-List href=3D"NST_Script_API_files/filelist.xml">
+<![if !supportTabStrip]>
+<link id=3D"shLink" href=3D"NST_Script_API_files/sheet001.htm">
+
+<link id=3D"shLink">
+
+<script language=3D"JavaScript">
+<!--
+ var c_lTabs=3D1;
+
+ var c_rgszSh=3Dnew Array(c_lTabs);
+ c_rgszSh[0] =3D "NST_SCRIPT_API";
+
+
+
+ var c_rgszClr=3Dnew Array(8);
+ c_rgszClr[0]=3D"window";
+ c_rgszClr[1]=3D"buttonface";
+ c_rgszClr[2]=3D"windowframe";
+ c_rgszClr[3]=3D"windowtext";
+ c_rgszClr[4]=3D"threedlightshadow";
+ c_rgszClr[5]=3D"threedhighlight";
+ c_rgszClr[6]=3D"threeddarkshadow";
+ c_rgszClr[7]=3D"threedshadow";
+
+ var g_iShCur;
+ var g_rglTabX=3Dnew Array(c_lTabs);
+
+function fnGetIEVer()
+{
+ var ua=3Dwindow.navigator.userAgent
+ var msie=3Dua.indexOf("MSIE")
+ if (msie>0 && window.navigator.platform=3D=3D"Win32")
+  return parseInt(ua.substring(msie+5,ua.indexOf(".", msie)));
+ else
+  return 0;
+}
+
+function fnBuildFrameset()
+{
+ var szHTML=3D"<frameset rows=3D\"*,18\" border=3D0 width=3D0 frameborder=
+=3Dno framespacing=3D0>"+
+  "<frame src=3D\""+document.all.item("shLink")[0].href+"\" name=3D\"frShee=
+t\" noresize>"+
+  "<frameset cols=3D\"54,*\" border=3D0 width=3D0 frameborder=3Dno framespa=
+cing=3D0>"+
+  "<frame src=3D\"\" name=3D\"frScroll\" marginwidth=3D0 marginheight=3D0 s=
+crolling=3Dno>"+
+  "<frame src=3D\"\" name=3D\"frTabs\" marginwidth=3D0 marginheight=3D0 scr=
+olling=3Dno>"+
+  "</frameset></frameset><plaintext>";
+
+ with (document) {
+  open("text/html","replace");
+  write(szHTML);
+  close();
+ }
+
+ fnBuildTabStrip();
+}
+
+function fnBuildTabStrip()
+{
+ var szHTML=3D
+  "<html><head><style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+=
+";cursor:default;line-height:10pt;}"+
+  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-h=
+eight:11pt;}</style></head>"+
+  "<body onclick=3D\"event.returnValue=3Dfalse;\" ondragstart=3D\"event.ret=
+urnValue=3Dfalse;\" onselectstart=3D\"event.returnValue=3Dfalse;\" bgcolor=
+=3D"+c_rgszClr[4]+" topmargin=3D0 leftmargin=3D0><table cellpadding=3D0 cel=
+lspacing=3D0 width=3D100%>"+
+  "<tr><td colspan=3D6 height=3D1 bgcolor=3D"+c_rgszClr[2]+"></td></tr>"+
+  "<tr><td style=3D\"font:1pt\">&nbsp;<td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll\" onclick=3D\"parent.f=
+nFastScrollTabs(0);\" onmouseover=3D\"parent.fnMouseOverScroll(0);\" onmous=
+eout=3D\"parent.fnMouseOutScroll(0);\"><a>&#171;</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll2\" onclick=3D\"parent.=
+fnScrollTabs(0);\" ondblclick=3D\"parent.fnScrollTabs(0);\" onmouseover=3D\=
+"parent.fnMouseOverScroll(1);\" onmouseout=3D\"parent.fnMouseOutScroll(1);\=
+"><a>&lt</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll2\" onclick=3D\"parent.=
+fnScrollTabs(1);\" ondblclick=3D\"parent.fnScrollTabs(1);\" onmouseover=3D\=
+"parent.fnMouseOverScroll(2);\" onmouseout=3D\"parent.fnMouseOutScroll(2);\=
+"><a>&gt</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll\" onclick=3D\"parent.f=
+nFastScrollTabs(1);\" onmouseover=3D\"parent.fnMouseOverScroll(3);\" onmous=
+eout=3D\"parent.fnMouseOutScroll(3);\"><a>&#187;</a></td>"+
+  "<td style=3D\"font:1pt\">&nbsp;<td></tr></table></body></html>";
+
+ with (frames['frScroll'].document) {
+  open("text/html","replace");
+  write(szHTML);
+  close();
+ }
+
+ szHTML =3D
+  "<html><head>"+
+  "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgsz=
+Clr[3]+";}"+
+  ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt Arial;padding-l=
+eft:3px;padding-right:3px;text-align:center;}"+
+  ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
+  "</style></head><body onload=3D\"parent.fnInit();\" onselectstart=3D\"eve=
+nt.returnValue=3Dfalse;\" ondragstart=3D\"event.returnValue=3Dfalse;\" bgco=
+lor=3D"+c_rgszClr[4]+
+  " topmargin=3D0 leftmargin=3D0><table id=3DtbTabs cellpadding=3D0 cellspa=
+cing=3D0>";
+
+ var iCellCount=3D(c_lTabs+1)*2;
+
+ var i;
+ for (i=3D0;i<iCellCount;i+=3D2)
+  szHTML+=3D"<col width=3D1><col>";
+
+ var iRow;
+ for (iRow=3D0;iRow<6;iRow++) {
+
+  szHTML+=3D"<tr>";
+
+  if (iRow=3D=3D5)
+   szHTML+=3D"<td colspan=3D"+iCellCount+"></td>";
+  else {
+   if (iRow=3D=3D0) {
+    for(i=3D0;i<iCellCount;i++)
+     szHTML+=3D"<td height=3D1 class=3D\"clBorder\"></td>";
+   } else if (iRow=3D=3D1) {
+    for(i=3D0;i<c_lTabs;i++) {
+     szHTML+=3D"<td height=3D1 nowrap class=3D\"clBorder\">&nbsp;</td>";
+     szHTML+=3D
+      "<td id=3DtdTab height=3D1 nowrap class=3D\"clTab\" onmouseover=3D\"p=
+arent.fnMouseOverTab("+i+");\" onmouseout=3D\"parent.fnMouseOutTab("+i+");\=
+">"+
+      "<a href=3D\""+document.all.item("shLink")[i].href+"\" target=3D\"frS=
+heet\" id=3DaTab>&nbsp;"+c_rgszSh[i]+"&nbsp;</a></td>";
+    }
+    szHTML+=3D"<td id=3DtdTab height=3D1 nowrap class=3D\"clBorder\"><a id=
+=3DaTab>&nbsp;</a></td><td width=3D100%></td>";
+   } else if (iRow=3D=3D2) {
+    for (i=3D0;i<c_lTabs;i++)
+     szHTML+=3D"<td height=3D1></td><td height=3D1 class=3D\"clBorder\"></t=
+d>";
+    szHTML+=3D"<td height=3D1></td><td height=3D1></td>";
+   } else if (iRow=3D=3D3) {
+    for (i=3D0;i<iCellCount;i++)
+     szHTML+=3D"<td height=3D1></td>";
+   } else if (iRow=3D=3D4) {
+    for (i=3D0;i<c_lTabs;i++)
+     szHTML+=3D"<td height=3D1 width=3D1></td><td height=3D1></td>";
+    szHTML+=3D"<td height=3D1 width=3D1></td><td></td>";
+   }
+  }
+  szHTML+=3D"</tr>";
+ }
+
+ szHTML+=3D"</table></body></html>";
+ with (frames['frTabs'].document) {
+  open("text/html","replace");
+  charset=3Ddocument.charset;
+  write(szHTML);
+  close();
+ }
+}
+
+function fnInit()
+{
+ g_rglTabX[0]=3D0;
+ var i;
+ for (i=3D1;i<=3Dc_lTabs;i++)
+  with (frames['frTabs'].document.all.tbTabs.rows[1].cells[fnTabToCol(i-1)])
+   g_rglTabX[i]=3DoffsetLeft+offsetWidth-6;
+}
+
+function fnTabToCol(iTab)
+{
+ return 2*iTab+1;
+}
+
+function fnNextTab(fDir)
+{
+ var iNextTab=3D-1;
+ var i;
+
+ with (frames['frTabs'].document.body) {
+  if (fDir=3D=3D0) {
+   if (scrollLeft>0) {
+    for (i=3D0;i<c_lTabs&&g_rglTabX[i]<scrollLeft;i++);
+    if (i<c_lTabs)
+     iNextTab=3Di-1;
+   }
+  } else {
+   if (g_rglTabX[c_lTabs]+6>offsetWidth+scrollLeft) {
+    for (i=3D0;i<c_lTabs&&g_rglTabX[i]<=3DscrollLeft;i++);
+    if (i<c_lTabs)
+     iNextTab=3Di;
+   }
+  }
+ }
+ return iNextTab;
+}
+
+function fnScrollTabs(fDir)
+{
+ var iNextTab=3DfnNextTab(fDir);
+
+ if (iNextTab>=3D0) {
+  frames['frTabs'].scroll(g_rglTabX[iNextTab],0);
+  return true;
+ } else
+  return false;
+}
+
+function fnFastScrollTabs(fDir)
+{
+ if (c_lTabs>16)
+  frames['frTabs'].scroll(g_rglTabX[fDir?c_lTabs-1:0],0);
+ else
+  if (fnScrollTabs(fDir)>0) window.setTimeout("fnFastScrollTabs("+fDir+");"=
+,5);
+}
+
+function fnSetTabProps(iTab,fActive)
+{
+ var iCol=3DfnTabToCol(iTab);
+ var i;
+
+ if (iTab>=3D0) {
+  with (frames['frTabs'].document.all) {
+   with (tbTabs) {
+    for (i=3D0;i<=3D4;i++) {
+     with (rows[i]) {
+      if (i=3D=3D0)
+       cells[iCol].style.background=3Dc_rgszClr[fActive?0:2];
+      else if (i>0 && i<4) {
+       if (fActive) {
+        cells[iCol-1].style.background=3Dc_rgszClr[2];
+        cells[iCol].style.background=3Dc_rgszClr[0];
+        cells[iCol+1].style.background=3Dc_rgszClr[2];
+       } else {
+        if (i=3D=3D1) {
+         cells[iCol-1].style.background=3Dc_rgszClr[2];
+         cells[iCol].style.background=3Dc_rgszClr[1];
+         cells[iCol+1].style.background=3Dc_rgszClr[2];
+        } else {
+         cells[iCol-1].style.background=3Dc_rgszClr[4];
+         cells[iCol].style.background=3Dc_rgszClr[(i=3D=3D2)?2:4];
+         cells[iCol+1].style.background=3Dc_rgszClr[4];
+        }
+       }
+      } else
+       cells[iCol].style.background=3Dc_rgszClr[fActive?2:4];
+     }
+    }
+   }
+   with (aTab[iTab].style) {
+    cursor=3D(fActive?"default":"hand");
+    color=3Dc_rgszClr[3];
+   }
+  }
+ }
+}
+
+function fnMouseOverScroll(iCtl)
+{
+ frames['frScroll'].document.all.tdScroll[iCtl].style.color=3Dc_rgszClr[7];
+}
+
+function fnMouseOutScroll(iCtl)
+{
+ frames['frScroll'].document.all.tdScroll[iCtl].style.color=3Dc_rgszClr[6];
+}
+
+function fnMouseOverTab(iTab)
+{
+ if (iTab!=3Dg_iShCur) {
+  var iCol=3DfnTabToCol(iTab);
+  with (frames['frTabs'].document.all) {
+   tdTab[iTab].style.background=3Dc_rgszClr[5];
+  }
+ }
+}
+
+function fnMouseOutTab(iTab)
+{
+ if (iTab>=3D0) {
+  var elFrom=3Dframes['frTabs'].event.srcElement;
+  var elTo=3Dframes['frTabs'].event.toElement;
+
+  if ((!elTo) ||
+   (elFrom.tagName=3D=3DelTo.tagName) ||
+   (elTo.tagName=3D=3D"A" && elTo.parentElement!=3DelFrom) ||
+   (elFrom.tagName=3D=3D"A" && elFrom.parentElement!=3DelTo)) {
+
+   if (iTab!=3Dg_iShCur) {
+    with (frames['frTabs'].document.all) {
+     tdTab[iTab].style.background=3Dc_rgszClr[1];
+    }
+   }
+  }
+ }
+}
+
+function fnSetActiveSheet(iSh)
+{
+ if (iSh!=3Dg_iShCur) {
+  fnSetTabProps(g_iShCur,false);
+  fnSetTabProps(iSh,true);
+  g_iShCur=3DiSh;
+ }
+}
+
+ window.g_iIEVer=3DfnGetIEVer();
+ if (window.g_iIEVer>=3D4)
+  fnBuildFrameset();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>NST_SCRIPT_API</x:Name>
+    <x:WorksheetSource HRef=3D"NST_Script_API_files/sheet001.htm"/>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:Stylesheet HRef=3D"NST_Script_API_files/stylesheet.css"/>
+  <x:WindowHeight>8010</x:WindowHeight>
+  <x:WindowWidth>14805</x:WindowWidth>
+  <x:WindowTopX>240</x:WindowTopX>
+  <x:WindowTopY>105</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<frameset rows=3D"*,39" border=3D0 width=3D0 frameborder=3Dno framespacing=
+=3D0>
+ <frame src=3D"NST_Script_API_files/sheet001.htm" name=3D"frSheet">
+ <frame src=3D"NST_Script_API_files/tabstrip.htm" name=3D"frTabs" marginwid=
+th=3D0 marginheight=3D0>
+ <noframes>
+  <body>
+   <p>This page uses frames, but your browser doesn't support them.</p>
+  </body>
+ </noframes>
+</frameset>
+</html>
+
+------=_NextPart_01CF864E.E2084E80
+Content-Location: file:///C:/27708E49/NST_Script_API_files/stylesheet.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css; charset="windows-1252"
+
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+.font0
+	{color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font5
+	{color:red;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font6
+	{color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font8
+	{color:#538DD5;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font11
+	{color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font12
+	{color:#538DD5;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font13
+	{color:red;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font16
+	{color:#538DD5;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font17
+	{color:#366092;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font18
+	{color:#16365C;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font19
+	{color:red;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font20
+	{color:#76933C;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font21
+	{color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font22
+	{color:#006040;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Courier New", monospace;
+	mso-font-charset:0;}
+.font23
+	{color:black;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Courier New", monospace;
+	mso-font-charset:0;}
+.font24
+	{color:#16365C;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font25
+	{color:#16365C;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:top;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:none;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:1.0pt solid #CCCCCC;
+	background:#C5D9F1;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl66
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:top;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid #CCCCCC;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:none;
+	background:#C5D9F1;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl67
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:top;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:1.0pt solid #CCCCCC;
+	background:#C5D9F1;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl68
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	vertical-align:top;
+	border-top:none;
+	border-right:1.0pt solid #CCCCCC;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:none;
+	background:#C5D9F1;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl69
+	{mso-style-parent:style0;
+	background:#F2F2F2;
+	mso-pattern:black none;}
+.xl70
+	{mso-style-parent:style0;
+	vertical-align:top;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl71
+	{mso-style-parent:style0;
+	color:white;
+	font-size:14.0pt;
+	font-weight:700;
+	background:#A6A6A6;
+	mso-pattern:black none;}
+.xl72
+	{mso-style-parent:style0;
+	color:white;
+	font-size:14.0pt;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	background:#A6A6A6;
+	mso-pattern:black none;}
+.xl73
+	{mso-style-parent:style0;
+	color:white;
+	font-size:14.0pt;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#8DB4E2;
+	mso-pattern:black none;}
+.xl74
+	{mso-style-parent:style0;
+	color:#538DD5;
+	font-size:12.0pt;
+	vertical-align:top;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl75
+	{mso-style-parent:style0;
+	color:#366092;
+	font-weight:700;
+	vertical-align:top;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl76
+	{mso-style-parent:style0;
+	color:#538DD5;
+	font-weight:700;
+	vertical-align:top;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl77
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	text-align:left;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl78
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#8DB4E2;
+	mso-pattern:black none;}
+.xl79
+	{mso-style-parent:style0;
+	color:#538DD5;
+	font-size:12.0pt;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	color:red;
+	font-size:12.0pt;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	color:#538DD5;
+	font-weight:700;
+	vertical-align:top;
+	border:.5pt solid windowtext;
+	background:#A6A6A6;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl82
+	{mso-style-parent:style0;
+	color:red;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl83
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;}
+.xl84
+	{mso-style-parent:style0;
+	color:#366092;
+	font-weight:700;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl85
+	{mso-style-parent:style0;
+	vertical-align:middle;}
+.xl86
+	{mso-style-parent:style0;
+	color:#16365C;
+	font-size:12.0pt;
+	vertical-align:top;
+	border:.5pt solid windowtext;
+	background:#D9D9D9;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl87
+	{mso-style-parent:style0;
+	color:#16365C;
+	font-weight:700;
+	vertical-align:top;
+	border:.5pt solid windowtext;
+	background:#D9D9D9;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl88
+	{mso-style-parent:style0;
+	color:#16365C;}
+.xl89
+	{mso-style-parent:style0;
+	color:gray;
+	font-size:14.0pt;
+	font-weight:700;
+	text-align:center;
+	background:#C5D9F1;
+	mso-pattern:black none;}
+.xl90
+	{mso-style-parent:style0;
+	color:#366092;
+	font-weight:700;
+	text-align:left;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl91
+	{mso-style-parent:style0;
+	color:#F79646;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:top;
+	border-top:1.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl92
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:top;
+	border-top:1.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl93
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:top;
+	border-top:1.5pt solid windowtext;
+	border-right:1.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl94
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:top;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid windowtext;
+	border-left:1.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl95
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:top;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid windowtext;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl96
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:top;
+	border-top:none;
+	border-right:1.5pt solid windowtext;
+	border-bottom:1.5pt solid windowtext;
+	border-left:none;
+	background:#F2F2F2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl97
+	{mso-style-parent:style0;
+	color:white;
+	font-size:16.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-align:center;
+	vertical-align:top;
+	background:gray;
+	mso-pattern:black none;}
+.xl98
+	{mso-style-parent:style0;
+	text-align:left;
+	white-space:normal;}
+.xl99
+	{mso-style-parent:style0;
+	text-align:left;}
+.xl100
+	{mso-style-parent:style0;
+	color:white;
+	font-size:14.0pt;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#A6A6A6;
+	mso-pattern:black none;}
+
+------=_NextPart_01CF864E.E2084E80
+Content-Location: file:///C:/27708E49/NST_Script_API_files/tabstrip.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html>
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 15">
+<link id=3DMain-File rel=3DMain-File href=3D"../NST_Script_API.htm">
+<![if IE]>
+<base href=3D"file:///C:\27708E49\NST_Script_API_files\tabstrip.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<script language=3D"JavaScript">
+<!--
+if (window.name!=3D"frTabs")
+ window.location.replace(document.all.item("Main-File").href);
+//-->
+</script>
+<style>
+<!--
+A {
+    text-decoration:none;
+    color:#000000;
+    font-size:9pt;
+}
+-->
+</style>
+</head>
+<body topmargin=3D0 leftmargin=3D0 bgcolor=3D"#808080">
+<table border=3D0 cellspacing=3D1>
+ <tr>
+ <td bgcolor=3D"#FFFFFF" nowrap><b><small><small>&nbsp;<a href=3D"sheet001.=
+htm" target=3D"frSheet"><font face=3D"Arial" color=3D"#000000">NST_SCRIPT_A=
+PI</font></a>&nbsp;</small></small></b></td>
+
+ </tr>
+</table>
+</body>
+</html>
+
+------=_NextPart_01CF864E.E2084E80
+Content-Location: file:///C:/27708E49/NST_Script_API_files/sheet001.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 15">
+<link id=3DMain-File rel=3DMain-File href=3D"../NST_Script_API.htm">
+<link rel=3DFile-List href=3Dfilelist.xml>
+<![if IE]>
+<base href=3D"file:///C:\27708E49\NST_Script_API_files\sheet001.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<link rel=3DStylesheet href=3Dstylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{mso-header-data:"&C&\0022arial\,Bold\0022&10&K3E8430Internal Use Only";
+	mso-footer-data:"&C&\0022arial\,Bold\0022&10&K3E8430Internal Use Only";
+	margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language=3D"JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3D4) {
+   if (parent.document.readyState=3D=3D"complete"
+    && parent.frames['frTabs'].document.readyState=3D=3D"complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3D"frSheet")
+ window.location.replace("../NST_Script_API.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link=3Dblue vlink=3Dpurple>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D1361 style=3D'bor=
+der-collapse:
+ collapse;table-layout:fixed;width:1021pt'>
+ <col width=3D251 style=3D'mso-width-source:userset;mso-width-alt:9179;widt=
+h:188pt'>
+ <col width=3D514 style=3D'mso-width-source:userset;mso-width-alt:18797;wid=
+th:386pt'>
+ <col width=3D596 style=3D'mso-width-source:userset;mso-width-alt:21796;wid=
+th:447pt'>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td colspan=3D3 rowspan=3D2 height=3D42 class=3Dxl91 width=3D1361 style=
+=3D'border-right:
+  1.5pt solid black;border-bottom:1.5pt solid black;height:31.5pt;width:102=
+1pt'>This
+  command reference can be used for latest release available, see
+  IntroductionToNST.mht for details. <br>
+    For any installed NST, please refer to already installed documents insi=
+de
+  folder nst\docs\</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+ </tr>
+ <tr height=3D29 style=3D'height:21.75pt'>
+  <td colspan=3D3 height=3D29 class=3Dxl97 style=3D'height:21.75pt'>NST COM=
+MAND</td>
+ </tr>
+ <tr height=3D26 style=3D'height:19.5pt'>
+  <td height=3D26 class=3Dxl71 style=3D'height:19.5pt'>syntax explanation .=
+..<span
+  style=3D'mso-spacerun:yes'> </span></td>
+  <td class=3Dxl69>&nbsp;</td>
+  <td class=3Dxl69>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl65 width=3D251 style=3D'height:15.75pt;width:18=
+8pt'>command()</td>
+  <td class=3Dxl66 width=3D514 style=3D'width:386pt'>: single command witho=
+ut any
+  options,</td>
+  <td class=3Dxl66 width=3D596 style=3D'width:447pt'>&nbsp;</td>
+ </tr>
+ <tr height=3D31 style=3D'mso-height-source:userset;height:23.25pt'>
+  <td height=3D31 class=3Dxl67 width=3D251 style=3D'height:23.25pt;width:18=
+8pt'>command
+  &lt;option&gt;</td>
+  <td class=3Dxl68 width=3D514 style=3D'width:386pt'>: command with one man=
+datory
+  parameter enclosed inside arrowed brackets,</td>
+  <td class=3Dxl66 width=3D596 style=3D'border-top:none;width:447pt'>&nbsp;=
+</td>
+ </tr>
+ <tr height=3D32 style=3D'mso-height-source:userset;height:24.0pt'>
+  <td height=3D32 class=3Dxl67 width=3D251 style=3D'height:24.0pt;width:188=
+pt'>command
+  (&lt;option&gt;)</td>
+  <td class=3Dxl68 width=3D514 style=3D'width:386pt'>: command with a volun=
+tary
+  parameter, enclosed inside sqared brackets,</td>
+  <td class=3Dxl66 width=3D596 style=3D'border-top:none;width:447pt'>&nbsp;=
+</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl67 width=3D251 style=3D'height:15.75pt;width:18=
+8pt'>command
+  (&lt;option1&gt; ,&lt;option2&gt;)</td>
+  <td class=3Dxl68 width=3D514 style=3D'width:386pt'>: All option allowed:<=
+span
+  style=3D'mso-spacerun:yes'>  </span>&lt;option1&gt; and&lt;option2&gt;</t=
+d>
+  <td class=3Dxl66 width=3D596 style=3D'border-top:none;width:447pt'>&nbsp;=
+</td>
+ </tr>
+ <tr height=3D35 style=3D'mso-height-source:userset;height:26.25pt'>
+  <td colspan=3D3 height=3D35 class=3Dxl98 width=3D1361 style=3D'height:26.=
+25pt;
+  width:1021pt'>Notation: &lt; and &gt; indicate a parameter which is speci=
+fied
+  in some more detail. If no brackets are given, only those fixed options c=
+an
+  be used. [ and ] indicate an optional parameter which does not necessarily
+  need to be specified | indicates an OR. Either left or right parameter ne=
+eds
+  to be specified.<span style=3D'mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=3D25 style=3D'height:18.75pt'>
+  <td height=3D25 class=3Dxl72 style=3D'height:18.75pt'>Main Command</td>
+  <td class=3Dxl72>Descriptions</td>
+  <td class=3Dxl72>Sample</td>
+ </tr>
+ <tr height=3D25 style=3D'height:18.75pt'>
+  <td height=3D25 class=3Dxl78 style=3D'height:18.75pt'><span
+  style=3D'mso-spacerun:yes'> </span>PHONE BEHAVIOR</td>
+  <td class=3Dxl73 style=3D'border-left:none'>&nbsp;</td>
+  <td class=3Dxl73 style=3D'border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D60 style=3D'height:45.0pt'>
+  <td height=3D60 class=3Dxl74 width=3D251 style=3D'height:45.0pt;border-to=
+p:none;
+  width:188pt'>getDisplaySize()<span
+  style=3D'mso-spacerun:yes'>                                              =
+                               </span></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Get
+  the system display size<span style=3D'mso-spacerun:yes'>  </span>and This
+  Command contains two methods:&lt;<font class=3D"font8">GetDisplayHeight</=
+font><font
+  class=3D"font0">()&gt;;&lt;</font><font class=3D"font8">GetDisplayWidth</=
+font><font
+  class=3D"font0">()&gt;;</font><font class=3D"font17">The two methods resp=
+ectively
+  to get mobile phone of the current screen width and height;</font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>displaySize
+  =3Dself.phone.getDisplaySize()<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                      
+  </span>self.phone.touch(displaySize[0]-10, displaySize[1]-10)</td>
+ </tr>
+ <tr height=3D55 style=3D'mso-height-source:userset;height:41.25pt'>
+  <td height=3D55 class=3Dxl74 width=3D251 style=3D'height:41.25pt;border-t=
+op:none;
+  width:188pt'>backToStartWindow()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>From
+  the helper method,Press Home Key to back to Home Screen …</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.pureBack()<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                     
+  </span>self.phone.<font class=3D"font19">backToStartWindow</font><font
+  class=3D"font16">()</font></td>
+ </tr>
+ <tr height=3D58 style=3D'mso-height-source:userset;height:43.5pt'>
+  <td height=3D58 class=3Dxl74 width=3D251 style=3D'height:43.5pt;border-to=
+p:none;
+  width:188pt'>pureBack()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Press
+  Back Key until back to Home Screen …</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.pureBack()<br>
+    self.phone.backToStartWindow()</td>
+ </tr>
+ <tr height=3D60 style=3D'height:45.0pt'>
+  <td height=3D60 class=3Dxl74 width=3D251 style=3D'height:45.0pt;border-to=
+p:none;
+  width:188pt'>startActivity( <font class=3D"font13">type</font><font
+  class=3D"font12">,</font><font class=3D"font5">packageName</font><font
+  class=3D"font21">&#65292;</font><font class=3D"font5">activityName</font>=
+<font
+  class=3D"font8">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Through<span
+  style=3D'mso-spacerun:yes'>  </span>'packagename' and 'activityname'<span
+  style=3D'mso-spacerun:yes'>  </span>open applications</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>e.g:
+  open phone dialing interface<span style=3D'mso-spacerun:yes'>          
+  </span>self.phone.startActivity('','<font class=3D"font19">com.android.co=
+ntacts</font><font
+  class=3D"font16">','</font><font class=3D"font19">com.android.contacts.ac=
+tivities.DialtactsActivity</font><font
+  class=3D"font16">')</font></td>
+ </tr>
+ <tr height=3D80 style=3D'height:60.0pt'>
+  <td height=3D80 class=3Dxl74 width=3D251 style=3D'height:60.0pt;border-to=
+p:none;
+  width:188pt'>expectText()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>check
+  if there is a expectText in the View</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._logger.info(&quot;Compose
+  message ...&quot;)<br>
+  =20
+  self.phone.viewSelector({&quot;resourceid&quot;:&quot;android:id/toolbar_=
+btn1&quot;}).touch()<br>
+    self.phone.expectText(expectText=3D&quot;New email&quot;)<font class=3D=
+"font20">
+  //check if there is a expectText in the View<span
+  style=3D'mso-spacerun:yes'> </span></font></td>
+ </tr>
+ <tr height=3D100 style=3D'height:75.0pt'>
+  <td height=3D100 class=3Dxl74 width=3D251 style=3D'height:75.0pt;border-t=
+op:none;
+  width:188pt'>expect()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>based
+  on the selector, will return the result</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>e.g:<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+                                               
+  </span>self._logger.info('check whether SIM1 was set')<br>
+    sim1ViewProperties['checked'] =3D True<br>
+    self.phone.<font class=3D"font19">expect</font><font class=3D"font16">(=
+patternMap=3Dsim1ViewProperties,referencePatternMap=3DNone,
+  isRefresh=3DTrue)</font></td>
+ </tr>
+ <tr height=3D120 style=3D'height:90.0pt'>
+  <td height=3D120 class=3Dxl74 width=3D251 style=3D'height:90.0pt;border-t=
+op:none;
+  width:188pt'>exitAttributeValueInView(<font class=3D"font13">attr=3D</fon=
+t><font
+  class=3D"font12">'content-desc')</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Judge
+  if the current view contain specific attribute value;</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>isExitText
+  =3D self.phone.exitAttributeValueInView(<font class=3D"font19">attr</font=
+><font
+  class=3D"font16">=3D'text', </font><font class=3D"font19">value</font><fo=
+nt
+  class=3D"font16">=3D'Calculator')<br>
+    <span style=3D'mso-spacerun:yes'> </span>if isExitText:<br>
+    <span style=3D'mso-spacerun:yes'>         </span>raise Exception('51040=
+106:
+  testMethod: Could not delete calculator in fast lane')<br>
+    <span style=3D'mso-spacerun:yes'>  </span>else:<br>
+    <span style=3D'mso-spacerun:yes'>        </span>pass<br>
+    </font></td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl74 width=3D251 style=3D'height:15.75pt;border-t=
+op:none;
+  width:188pt'>expectAttrValue(<font class=3D"font12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>check
+  if there is a expectAttribute with exepecValue in the View</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.expectAttrValue(<font
+  class=3D"font19">expectAttr</font><font class=3D"font16"> =3D '</font><fo=
+nt
+  class=3D"font20">package</font><font class=3D"font16">', </font><font
+  class=3D"font19">expectValue </font><font class=3D"font16">=3D '</font><f=
+ont
+  class=3D"font20">com.android.dialer</font><font class=3D"font16">')</font=
+></td>
+ </tr>
+ <tr height=3D39 style=3D'mso-height-source:userset;height:29.25pt'>
+  <td height=3D39 class=3Dxl72 style=3D'height:29.25pt'>Classes</td>
+  <td colspan=3D2 class=3Dxl100>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl88 height=3D82 style=3D'mso-height-source:userset;height:61.=
+5pt'>
+  <td height=3D82 class=3Dxl86 width=3D251 style=3D'height:61.5pt;width:188=
+pt'><font
+  class=3D"font24">Class<span style=3D'mso-spacerun:yes'>         
+  </span>DeviceViewInterface<span
+  style=3D'mso-spacerun:yes'>                                              =
+     
+  </span></font><font class=3D"font25"><span
+  style=3D'mso-spacerun:yes'>                        </span></font></td>
+  <td class=3Dxl87 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Based
+  on UIAutomator, ADB channel, communicate with device side; <br>
+    <span style=3D'mso-spacerun:yes'>    </span>Main functionalities:<br>
+    <span style=3D'mso-spacerun:yes'>        </span>(1)Dump the view xml
+  file;<br>
+    <span style=3D'mso-spacerun:yes'>        </span>(2)Parse and return the=
+ view
+  information;</td>
+  <td class=3Dxl87 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._viewclient.dump()<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+                                          
+  </span>self._viewclient.findViewByClassAndIndex('android.widget.ListView',
+  1).isExist()</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 class=3Dxl89 style=3D'height:16.5pt'>DeviceViewInterface<=
+/td>
+  <td class=3Dxl89>Instance Methods</td>
+  <td class=3Dxl89>Descriptions</td>
+ </tr>
+ <tr height=3D29 style=3D'page-break-before:always;mso-height-source:userse=
+t;
+  height:21.75pt'>
+  <td height=3D29 style=3D'height:21.75pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'width:386pt'>dump(sleep=3D1)</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-left:none;width:447pt'>Dumps=
+ the
+  window content and return the root of parsed view.</td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 style=3D'height:15.75pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>setRoo=
+tView(rootView)</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>set
+  the root view of the current parser</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>findVi=
+ewWithText(viewText)</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><a
+  name=3DsetRootView>Find the view according to the view text; Return the
+  DeviceView instance;</a></td>
+ </tr>
+ <tr height=3D38 style=3D'mso-height-source:userset;height:28.5pt'>
+  <td height=3D38 style=3D'height:28.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>findVi=
+ewWithTextContained(viewText)</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>Find
+  the view according to the view text, where contains the viewText; Return =
+the
+  DeviceView instance</td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 style=3D'height:15.75pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>findVi=
+ewByClassAndIndex<font
+  class=3D"font23">(</font><font class=3D"font22">vClassName, vIndex</font>=
+<font
+  class=3D"font23">)</font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><a
+  name=3DfindViewWithText>Find the view according to the class and index</a=
+></td>
+ </tr>
+ <tr height=3D47 style=3D'mso-height-source:userset;height:35.25pt'>
+  <td height=3D47 style=3D'height:35.25pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>findVi=
+ewByClassAndText(vClassName,
+  vText)</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>Find
+  the view according to the class and index</td>
+ </tr>
+ <tr height=3D46 style=3D'mso-height-source:userset;height:34.5pt'>
+  <td height=3D46 class=3Dxl83 style=3D'height:34.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl84 width=3D514 style=3D'border-top:none;width:386pt'>findVi=
+ewWithAttribute(attr=3D'content-desc',
+  value=3D'OK')</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><a
+  name=3DfindViewWithTextContained>Find the view according to the attribute=
+ and
+  value; Return the DeviceView instance; To be noticed, other means not
+  implemented yet</a></td>
+ </tr>
+ <tr height=3D21 style=3D'mso-height-source:userset;height:15.75pt'>
+  <td height=3D21 class=3Dxl85 style=3D'height:15.75pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>findVi=
+ewWithAttributes(attrMap=3D{&quot;content-desc&quot;:
+  &quot;OK&quot;})</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>Find
+  the view by attribute:value pair;Support the regex pattern for the text
+  search;<br>
+    return the matched view list;</td>
+ </tr>
+ <tr height=3D63 style=3D'mso-height-source:userset;height:47.25pt'>
+  <td height=3D63 class=3Dxl85 style=3D'height:47.25pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl90 width=3D514 style=3D'border-top:none;width:386pt'>findVi=
+ewsWithAttributes(attrMap=3D{&quot;content-desc&quot;:
+  &quot;OK&quot;})</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><a
+  name=3DfindViewByClassAndIndex>Find all the views by attribute:value pair;
+  Support the regex pattern for the text search</a></td>
+ </tr>
+ <tr height=3D44 style=3D'mso-height-source:userset;height:33.0pt'>
+  <td height=3D44 class=3Dxl86 width=3D251 style=3D'height:33.0pt;width:188=
+pt'><font
+  class=3D"font24">Class<span style=3D'mso-spacerun:yes'>               
+  </span>DeviceView<span
+  style=3D'mso-spacerun:yes'>                                             
+  </span></font><font class=3D"font25"><span
+  style=3D'mso-spacerun:yes'>                        </span></font></td>
+  <td class=3Dxl87 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Device
+  view to be operated;</td>
+  <td class=3Dxl87 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>&nbsp;</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 class=3Dxl89 style=3D'height:16.5pt'>DeviceView</td>
+  <td class=3Dxl89>Instance Methods</td>
+  <td class=3Dxl89>Descriptions</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'width:386pt'>touch(type=3DMonkeyDev=
+ice.DOWN_AND_UP)</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-left:none;width:447pt'>Touch=
+es the
+  center of this View</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'><a nam=
+e=3Ddrag>drag((destX,
+  destY), duration=3D1.0, steps=3D10)</a></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>Simulates
+  a drag gesture (touch, hold, and move) on this view item</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>getCen=
+ter()</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>Gets
+  the center coords of the View</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'><a
+  name=3DswipeToUpperBoundary>swipeToUpperBoundary()</a></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>swipe
+  from center to upper boundary</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>swipeT=
+oDownBoundary()</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>swipe
+  from center to down boundary</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>swipeT=
+oLeft()</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>swipe
+  from right to left within the boundary of this view</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>swipeT=
+oRight()</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>swipe
+  from left to right within the boundary of this view</td>
+ </tr>
+ <tr height=3D22 style=3D'mso-height-source:userset;height:16.5pt'>
+  <td height=3D22 style=3D'height:16.5pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>getSub=
+Views()</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>return
+  the subviews contained</td>
+ </tr>
+ <tr height=3D20 style=3D'height:15.0pt'>
+  <td height=3D20 style=3D'height:15.0pt'><span
+  style=3D'mso-spacerun:yes'>                       </span><font class=3D"f=
+ont5">|----------------------------------</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;width:386pt'>isExis=
+t()</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>return
+  self._viewObject is not None<span style=3D'mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=3D25 style=3D'height:18.75pt'>
+  <td height=3D25 class=3Dxl72 style=3D'height:18.75pt'>Gestures and action=
+</td>
+  <td class=3Dxl72>Descriptions</td>
+  <td class=3Dxl72>Sample</td>
+ </tr>
+ <tr height=3D140 style=3D'height:105.0pt'>
+  <td height=3D140 class=3Dxl77 width=3D251 style=3D'height:105.0pt;width:1=
+88pt'><font
+  class=3D"font12">input(</font><font class=3D"font11">String</font><font
+  class=3D"font13"> text</font><font class=3D"font12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-left:none;width:386pt'>This =
+method is
+  called when need to input information can be performed;and &lt;<font
+  class=3D"font19">text</font><font class=3D"font17">&gt;Input method of in=
+ternal
+  parameters: when the input object is digital added directly, input object=
+ is
+  a string, you need to add a pair of single quotes;<span
+  style=3D'mso-spacerun:yes'>                                              =
+                        
+  </span></font><font class=3D"font18">Example</font><font class=3D"font17"=
+>:Input(10086)<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+                         
+  </span>Input('Hello NST')<span style=3D'mso-spacerun:yes'>               =
+                                                                           =
+      
+  </span>testnumber=3D'10086'<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                            
+  </span>self.phone.input(testnumber)<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                </span></font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-left:none;width:447pt'><a
+  name=3DfindViewByClassAndText><font class=3D"font17"><span
+  style=3D'mso-spacerun:yes'> </span>e.g:<span style=3D'mso-spacerun:yes'> =
+ </span></font><font
+  class=3D"font16"><span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                </span>self._logger.info('s=
+tep
+  1: input &quot;10086&quot;')<br>
+    <span style=3D'mso-spacerun:yes'>        </span>testPhoneNumber =3D
+  '10086'<br>
+    <span style=3D'mso-spacerun:yes'>       
+  </span>self.phone.input(testPhoneNumber)<br>
+    <span style=3D'mso-spacerun:yes'>        </span>self.phone.sleep(2)<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                             </span></font>=
+</a></td>
+ </tr>
+ <tr height=3D59 style=3D'mso-height-source:userset;height:44.25pt'>
+  <td height=3D59 class=3Dxl74 width=3D251 style=3D'height:44.25pt;border-t=
+op:none;
+  width:188pt'>back()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Click
+  the keyback button</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><a
+  name=3DfindViewWithAttribute>self._logger.info('Exit notification
+  drawer')<br>
+    <span style=3D'mso-spacerun:yes'>       </span><font class=3D"font19"><=
+span
+  style=3D'mso-spacerun:yes'> </span>self.phone.back()</font><font class=3D=
+"font16"><br>
+    <span style=3D'mso-spacerun:yes'>        </span>self.phone.sleep(1)</fo=
+nt></a></td>
+ </tr>
+ <tr height=3D40 style=3D'height:30.0pt'>
+  <td height=3D40 class=3Dxl74 width=3D251 style=3D'height:30.0pt;border-to=
+p:none;
+  width:188pt'>pressKey(<font class=3D"font13">keyCode</font><font class=3D=
+"font12">)</font></td>
+  <td class=3Dxl70 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>&lt;<font
+  class=3D"font5">KeyCode</font><font class=3D"font0">&gt;&amp;FYI<span
+  style=3D'mso-spacerun:yes'>  </span>android keycode;<span
+  style=3D'mso-spacerun:yes'>           </span>such as:('KEYCODE_MENU',<span
+  style=3D'mso-spacerun:yes'>  </span>'KEYCODE_POWER'<span
+  style=3D'mso-spacerun:yes'>  </span>,The number keys )<span
+  style=3D'mso-spacerun:yes'>                            </span></font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><a
+  name=3DfindViewWithAttributes>self.phone.pressKey('<font class=3D"font19"=
+>KEYCODE_VOLUME_DOWN</font><font
+  class=3D"font16">')</font></a></td>
+ </tr>
+ <tr height=3D120 style=3D'height:90.0pt'>
+  <td height=3D120 class=3Dxl74 width=3D251 style=3D'height:90.0pt;border-t=
+op:none;
+  width:188pt'>touch(<font class=3D"font11">int</font><font class=3D"font13=
+"> x,</font><font
+  class=3D"font11">int</font><font class=3D"font13"> y,</font><font class=
+=3D"font11">int</font><font
+  class=3D"font13"> duration</font><font class=3D"font12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>&lt;<font
+  class=3D"font5">x</font><font class=3D"font0">&gt;&lt;</font><font class=
+=3D"font5">y</font><font
+  class=3D"font0">&gt;</font><font class=3D"font17">Abscissa and ordinate;a=
+nd this
+  command means: Touch mobile phone operating system within the coordinates=
+ of
+  the point.</font><font class=3D"font0">&lt;</font><font class=3D"font5">d=
+uration</font><font
+  class=3D"font0">&gt;</font><font class=3D"font17">Click on the duration o=
+f the
+  screen .Time in milliseconds.touch method, support the shell input mode;
+  support duration for whole touch event, and wait after touch, and multi
+  touch(count);Attention: the duration is not supported in the shell execut=
+ion
+  mode;</font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>e.g&#65306;<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+                                
+  </span>self.phone.<font class=3D"font19">touch</font><font class=3D"font1=
+6">&#65288;300,400,5&#65289;</font><font
+  class=3D"font20">// Click on the coordinates (300,400)<span
+  style=3D'mso-spacerun:yes'>                                              =
+               
+  </span></font><font class=3D"font16">self.phone.</font><font class=3D"fon=
+t19">touch</font><font
+  class=3D"font16">(200,100,10) </font><font class=3D"font20"><span
+  style=3D'mso-spacerun:yes'>  </span>//Click on the coordinates (200,100)<=
+span
+  style=3D'mso-spacerun:yes'>                                              =
+                                            
+  </span></font><font class=3D"font16">self._logger.info(&quot;Open
+  dialer&quot;)<br>
+    <span
+  style=3D'mso-spacerun:yes'> </span>self.phone.viewSelector({&quot;text&qu=
+ot;:&quot;Phone&quot;}).</font><font
+  class=3D"font19">touch</font><font class=3D"font16">()</font></td>
+ </tr>
+ <tr height=3D42 style=3D'height:31.5pt'>
+  <td height=3D42 class=3Dxl79 width=3D251 style=3D'height:31.5pt;border-to=
+p:none;
+  width:188pt'>swipe((x1, y1), (x2,y2), <font class=3D"font13">duration</fo=
+nt><font
+  class=3D"font12">=3D0.2, </font><font class=3D"font13">steps</font><font
+  class=3D"font12">=3D10)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>currently,
+  we just use MR drag to simulate the swipe;&lt;<font class=3D"font19">step=
+s</font><font
+  class=3D"font17">&gt;:Sliding speed of the screen ,&lt;</font><font
+  class=3D"font19">duration</font><font class=3D"font17">&gt;:Touch screen
+  time,Time in milliseconds</font></td>
+  <td class=3Dxl81 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>&nbsp;</td>
+ </tr>
+ <tr height=3D40 style=3D'page-break-before:always;height:30.0pt'>
+  <td height=3D40 class=3Dxl79 width=3D251 style=3D'height:30.0pt;border-to=
+p:none;
+  width:188pt'><font class=3D"font13"><span style=3D'mso-spacerun:yes'>  
+  </span>|--------</font><font class=3D"font12">swipeFromLeftToRight()</fon=
+t></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Swith
+  from the left side to the right side</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._logger.info(&quot;
+  swipe to fastlane&quot;)<br>
+    self.phone.<font class=3D"font19">swipeFromLeftToRight</font><font
+  class=3D"font16">()</font></td>
+ </tr>
+ <tr height=3D60 style=3D'height:45.0pt'>
+  <td height=3D60 class=3Dxl79 width=3D251 style=3D'height:45.0pt;border-to=
+p:none;
+  width:188pt'><font class=3D"font13"><span style=3D'mso-spacerun:yes'>  
+  </span>|--------</font><font class=3D"font12">swipeFromRightToLeft()</fon=
+t></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Swith
+  from the right side to the left side</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._logger.info(&quot;
+  swipe to home screen&quot;)<br>
+    self.phone.<font class=3D"font19">swipeFromRightToLeft</font><font
+  class=3D"font16">()<br>
+    <span style=3D'mso-spacerun:yes'> </span>HomeScreenHelper.isHomeScreenS=
+hown()</font></td>
+ </tr>
+ <tr height=3D40 style=3D'height:30.0pt'>
+  <td height=3D40 class=3Dxl79 width=3D251 style=3D'height:30.0pt;border-to=
+p:none;
+  width:188pt'><font class=3D"font13"><span style=3D'mso-spacerun:yes'>  
+  </span>|--------</font><font class=3D"font12">swipeFromUpToDown()</font><=
+/td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Swith
+  from the up side to the down side;such as :open Notifications</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._logger.info('swipe
+  down to open Notifications')<br>
+    self.phone.<font class=3D"font19">swipeFromUpToDown</font><font class=
+=3D"font16">()</font></td>
+ </tr>
+ <tr height=3D40 style=3D'height:30.0pt'>
+  <td height=3D40 class=3Dxl79 width=3D251 style=3D'height:30.0pt;border-to=
+p:none;
+  width:188pt'><font class=3D"font13"><span style=3D'mso-spacerun:yes'>  
+  </span>|--------</font><font class=3D"font12">swipeFromDownToUp()</font><=
+/td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Swith
+  from the down side to the up side;such as :swipe from bottom to center to
+  open options menu</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._logger.info('swipe
+  from bottom to center to open options menu')<br>
+    self.phone.<font class=3D"font19">swipeFromDownToUp</font><font class=
+=3D"font16">()</font></td>
+ </tr>
+ <tr height=3D40 style=3D'height:30.0pt'>
+  <td height=3D40 class=3Dxl79 width=3D251 style=3D'height:30.0pt;border-to=
+p:none;
+  width:188pt'><font class=3D"font13"><span style=3D'mso-spacerun:yes'>  
+  </span>|--------</font><font class=3D"font12">swipeFromCenterToDown()</fo=
+nt></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>swith
+  from the up side to the down side</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._logger.info(&quot;Swipe
+  down to show calendar&quot;)<br>
+    self.phone.<font class=3D"font19">swipeFromCenterToDown</font><font
+  class=3D"font16">()</font></td>
+ </tr>
+ <tr height=3D40 style=3D'height:30.0pt'>
+  <td height=3D40 class=3Dxl79 width=3D251 style=3D'height:30.0pt;border-to=
+p:none;
+  width:188pt'><font class=3D"font13"><span style=3D'mso-spacerun:yes'>  
+  </span>|--------</font><font class=3D"font12">swipeFromCenterToUp()</font=
+></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>swith
+  from the down side to the up side,such as rejects the incoming call</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._logger.info(&quot;Reference
+  phone rejects the incoming call&quot;)<br>
+    self.refPhone.<font class=3D"font19">swipeFromCenterToUp</font><font
+  class=3D"font16">()</font></td>
+ </tr>
+ <tr height=3D40 style=3D'height:30.0pt'>
+  <td height=3D40 class=3Dxl79 width=3D251 style=3D'height:30.0pt;border-to=
+p:none;
+  width:188pt'>zoomIn()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>perform
+  a zoom-out action at the center screen,due to the limitation of mr, this =
+is
+  an alternative way to zoomOut</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self._logger.info(&quot;Pinch
+  zoom the photo ...&quot;)<br>
+    <span style=3D'mso-spacerun:yes'> </span>self.phone.<font class=3D"font=
+19">zoomIn</font><font
+  class=3D"font16">()</font></td>
+ </tr>
+ <tr height=3D60 style=3D'height:45.0pt'>
+  <td height=3D60 class=3Dxl79 width=3D251 style=3D'height:45.0pt;border-to=
+p:none;
+  width:188pt'>zoomOut()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>perform
+  a zoom-in action at the center screen,due to the limitation of mr, this i=
+s an
+  alternative way to zoomIn.</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><span
+  style=3D'mso-spacerun:yes'> </span><font class=3D"font20">open Browser and
+  loading the URL,then Zoom out the page </font><font class=3D"font16"><span
+  style=3D'mso-spacerun:yes'>                                           </s=
+pan>self._logger.info(&quot;Zoom
+  out the page&quot;)<br>
+    <span style=3D'mso-spacerun:yes'> </span>self.phone.zoomOut()</font></t=
+d>
+ </tr>
+ <tr height=3D60 style=3D'height:45.0pt'>
+  <td height=3D60 class=3Dxl79 width=3D251 style=3D'height:45.0pt;border-to=
+p:none;
+  width:188pt'>sleep(<font class=3D"font13">sleepSec</font><font class=3D"f=
+ont12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>&lt;<font
+  class=3D"font19">sleepSec</font><font class=3D"font17">&gt; the execution=
+ for
+  that time in seconds, alternatively a &lt;variable&gt; can be used. This
+  command lets NST wait before next command is executed.</font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><span
+  style=3D'mso-spacerun:yes'> </span>e.g:<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+                                                                           =
+                                                                           =
+                              
+  </span>self.phone.sleep(2)<span style=3D'mso-spacerun:yes'>      </span><=
+font
+  class=3D"font20">//Wait for 2 seconds<span style=3D'mso-spacerun:yes'>   =
+ </span></font><font
+  class=3D"font16"><span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+     </span>…….<span
+  style=3D'mso-spacerun:yes'>     </span></font></td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl80 width=3D251 style=3D'height:15.75pt;border-t=
+op:none;
+  width:188pt'>installAPP(apkFullName)</td>
+  <td class=3Dxl82 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Unrealized</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl80 width=3D251 style=3D'height:15.75pt;border-t=
+op:none;
+  width:188pt'>runRobotiumTest(apkFullName)</td>
+  <td class=3Dxl82 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Unrealized</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>&nbsp;</td>
+ </tr>
+ <tr height=3D25 style=3D'height:18.75pt'>
+  <td height=3D25 class=3Dxl72 style=3D'height:18.75pt'>Utilities Command</=
+td>
+  <td class=3Dxl72>Descriptions</td>
+  <td class=3Dxl72>Sample</td>
+ </tr>
+ <tr height=3D36 style=3D'mso-height-source:userset;height:27.0pt'>
+  <td height=3D36 class=3Dxl78 style=3D'height:27.0pt'>&nbsp;</td>
+  <td class=3Dxl73 style=3D'border-left:none'>&nbsp;</td>
+  <td class=3Dxl73 style=3D'border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D59 style=3D'mso-height-source:userset;height:44.25pt'>
+  <td height=3D59 class=3Dxl79 width=3D251 style=3D'height:44.25pt;border-t=
+op:none;
+  width:188pt'>dumpLog(<font class=3D"font13">filePath</font><font class=3D=
+"font12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>dump
+  the log to the server/computer file sys</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.dumpLog(filePath)</td>
+ </tr>
+ <tr height=3D56 style=3D'mso-height-source:userset;height:42.0pt'>
+  <td height=3D56 class=3Dxl79 width=3D251 style=3D'height:42.0pt;border-to=
+p:none;
+  width:188pt'>startSViewServer()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Connect
+  to the standard view server;Check the status of viewserver, then start it=
+</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.startSViewServer()</td>
+ </tr>
+ <tr height=3D54 style=3D'mso-height-source:userset;height:40.5pt'>
+  <td height=3D54 class=3Dxl79 width=3D251 style=3D'height:40.5pt;border-to=
+p:none;
+  width:188pt'>stopSViewServer()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Stop
+  the view server</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.stopSViewServer()</td>
+ </tr>
+ <tr height=3D58 style=3D'mso-height-source:userset;height:43.5pt'>
+  <td height=3D58 class=3Dxl79 width=3D251 style=3D'height:43.5pt;border-to=
+p:none;
+  width:188pt'>killProcess(<font class=3D"font13">processName</font><font
+  class=3D"font12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>kill
+  the specific process by name</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.killProcess('processName')</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl79 width=3D251 style=3D'height:15.75pt;border-t=
+op:none;
+  width:188pt'>serviceResponse(<font class=3D"font13"> response</font><font
+  class=3D"font12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Checks
+  the response received from the ViewServer</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.serviceResponse()</td>
+ </tr>
+ <tr height=3D51 style=3D'mso-height-source:userset;height:38.25pt'>
+  <td height=3D51 class=3Dxl79 width=3D251 style=3D'height:38.25pt;border-t=
+op:none;
+  width:188pt'>dumpImageToFile( <font class=3D"font13">filename</font><font
+  class=3D"font12">, </font><font class=3D"font13">format</font><font class=
+=3D"font12">=3D&quot;&quot;)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Write
+  the View image to the specified filename in the specified format;<span
+  style=3D'mso-spacerun:yes'>                           </span>type <font
+  class=3D"font19">filename</font><font class=3D"font17">: str;<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                     
+  </span>param </font><font class=3D"font19">filename</font><font class=3D"=
+font17">:
+  Absolute path and optional filename receiving the image. If this points t=
+o a
+  directory, then the filename is determined by the serialno of the device =
+and
+  format extension.<br>
+    type </font><font class=3D"font19">format</font><font class=3D"font17">:
+  str<br>
+    param </font><font class=3D"font19">format</font><font class=3D"font17"=
+>: Image
+  format (default format is PNG)</font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.dumplmageToFile('Testimage',format=3D&quot;PNG&quot;)=
+</td>
+ </tr>
+ <tr height=3D48 style=3D'mso-height-source:userset;height:36.0pt'>
+  <td height=3D48 class=3Dxl79 width=3D251 style=3D'height:36.0pt;border-to=
+p:none;
+  width:188pt'>obtainAdbPath()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Obtains
+  the ADB path attempting know locations for different Oss</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>adb
+  =3D Phone.obtainAdbPath()</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl79 width=3D251 style=3D'height:15.75pt;border-t=
+op:none;
+  width:188pt'>ViewSelector</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>return
+  the views that match the pattern in the current screen</td>
+  <td class=3Dxl81 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>&nbsp;</td>
+ </tr>
+ <tr height=3D360 style=3D'page-break-before:always;height:270.0pt'>
+  <td height=3D360 class=3Dxl79 width=3D251 style=3D'height:270.0pt;border-=
+top:none;
+  width:188pt'><span style=3D'mso-spacerun:yes'>     </span><font class=3D"=
+font13">|---------</font><font
+  class=3D"font12">__call__(patternMap)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Find
+  the view according to the pattern;<br>
+    <span style=3D'mso-spacerun:yes'>        </span>If 'referencePattern' a=
+nd
+  Level is provided, it will find the refer object and find under the upper
+  referenceLevel;<br>
+    <span style=3D'mso-spacerun:yes'>        </span>Mainly used for 2 scena=
+rio
+  for the 'hard view finding':<br>
+    <span style=3D'mso-spacerun:yes'>            </span>(1)Find the view wh=
+ich
+  hide in the 'List', it will automatically scroll the window to find the
+  target view;<br>
+    <span style=3D'mso-spacerun:yes'>            </span>(2)Find the view wh=
+ich
+  hard to determine, but there is a reference view easy to find; <br>
+    <span style=3D'mso-spacerun:yes'>                </span>e.g., the check=
+box
+  next to the text 'Show layout bounds', which is typically exist the
+  settings;<br>
+    <span style=3D'mso-spacerun:yes'> </span>If no view or reference view f=
+ound,
+  will throw the ViewNotFoundException;<br>
+    <span style=3D'mso-spacerun:yes'>        </span>Parameters:<br>
+    <span style=3D'mso-spacerun:yes'>            </span>patternMap, attribu=
+te map
+  of view to be found;<br>
+    <span style=3D'mso-spacerun:yes'>            </span>timeout, N/A, to be
+  updated;<br>
+    <span style=3D'mso-spacerun:yes'>            </span>referencePatternMap,
+  attribute map of the reference view;<br>
+    <span style=3D'mso-spacerun:yes'>            </span>referenceLevel, the
+  parent/upper level which target view and reference view shared;<br>
+    <span style=3D'mso-spacerun:yes'>            </span>searchDir, the scro=
+ll
+  direction for search;<span style=3D'mso-spacerun:yes'> </span></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'><span
+  style=3D'mso-spacerun:yes'> </span>e.g<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+                          
+  </span>1.self.phone.<font class=3D"font19">viewSelector</font><font
+  class=3D"font16">({&quot;resource-id&quot;:&quot;com.android.email:id/sub=
+ject&quot;}).touch()<span
+  style=3D'mso-spacerun:yes'>                                              =
+    
+  </span>2.self.phone.</font><font class=3D"font19">viewSelector</font><font
+  class=3D"font16">({&quot;resource-id&quot;:&quot;android:id/toolbar_btn2&=
+quot;}).touch()<span
+  style=3D'mso-spacerun:yes'>                                              =
+            
+  </span>3.self.phone.</font><font class=3D"font19">viewSelector</font><font
+  class=3D"font16">({&quot;resource-id&quot;:&quot;android:id/toolbar_btn3&=
+quot;}).touch()<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                          <=
+/span></font></td>
+ </tr>
+ <tr height=3D60 style=3D'height:45.0pt'>
+  <td height=3D60 class=3Dxl79 width=3D251 style=3D'height:45.0pt;border-to=
+p:none;
+  width:188pt'>convertCoordinate(<font class=3D"font13">x</font><font
+  class=3D"font12">, </font><font class=3D"font13">y</font><font class=3D"f=
+ont12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>convert
+  Coordinate</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.convert
+  Coordinate(100,200)<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                                           =
+      
+  </span>(width, height) =3D self.getDisplaySize()<span
+  style=3D'mso-spacerun:yes'>                                              =
+                                                        
+  </span>return((200,width-100))</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl79 width=3D251 style=3D'height:15.75pt;border-t=
+op:none;
+  width:188pt'>executeShell(<font class=3D"font13">command</font><font
+  class=3D"font12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>execute<span
+  style=3D'mso-spacerun:yes'>  </span>the shell command</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.executeShell('logcat
+  -c')<span style=3D'mso-spacerun:yes'>      </span><font class=3D"font20">=
+//clear
+  the log in logcat cache</font></td>
+ </tr>
+ <tr height=3D40 style=3D'mso-height-source:userset;height:30.0pt'>
+  <td height=3D40 class=3Dxl72 style=3D'height:30.0pt'>Other Command</td>
+  <td class=3Dxl72>Descriptions</td>
+  <td class=3Dxl72>Sample</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl74 width=3D251 style=3D'height:15.75pt;width:18=
+8pt'>checkCrash()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-left:none;width:386pt'>Appli=
+cation
+  Crash Detected</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-left:none;width:447pt'>self.=
+phone.checkCrash()</td>
+ </tr>
+ <tr height=3D43 style=3D'mso-height-source:userset;height:32.25pt'>
+  <td height=3D43 class=3Dxl74 width=3D251 style=3D'height:32.25pt;border-t=
+op:none;
+  width:188pt'>forceStopAppWithPackageName( <font class=3D"font5">package_n=
+ame</font><font
+  class=3D"font8">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Force
+  stop application</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.forceStopAppWithPackageName(
+  <font class=3D"font5">package_name</font><font class=3D"font0">)</font></=
+td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl74 width=3D251 style=3D'height:15.75pt;border-t=
+op:none;
+  width:188pt'>s</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Judge
+  if the current view contain specific text</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.exitTextlnView()</td>
+ </tr>
+ <tr height=3D46 style=3D'mso-height-source:userset;height:34.5pt'>
+  <td height=3D46 class=3Dxl74 width=3D251 style=3D'height:34.5pt;border-to=
+p:none;
+  width:188pt'>clear()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>This
+  method will remove all of the characters or figures<span
+  style=3D'mso-spacerun:yes'>  </span>and It is equivalent to recycle the D=
+elete
+  method</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.clear()<span
+  style=3D'mso-spacerun:yes'>  </span><font class=3D"font6">//</font><font
+  class=3D"font20">remove all of the characters or figures</font></td>
+ </tr>
+ <tr height=3D52 style=3D'mso-height-source:userset;height:39.0pt'>
+  <td height=3D52 class=3Dxl74 width=3D251 style=3D'height:39.0pt;border-to=
+p:none;
+  width:188pt'>volumeUp()&amp;&amp;volumeDown()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Press
+  'KEYCODE_VOLUME_UP '&amp;&amp;'KEYCODE_VOLUME_DOWN' key</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.volumeUp()
+  &amp;&amp;self.phone.volumeDown()</td>
+ </tr>
+ <tr height=3D56 style=3D'mso-height-source:userset;height:42.0pt'>
+  <td height=3D56 class=3Dxl79 width=3D251 style=3D'height:42.0pt;border-to=
+p:none;
+  width:188pt'>drag((x1, y1), (x2,y2), duration=3D1.0, steps=3D10)</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>currently,
+  we just use MR drag to simulate the swipe;To drag the icon inside the
+  screen,from(x1,y1)to(x2,y2),&lt;<font class=3D"font19">x</font><font
+  class=3D"font17">&gt;&lt;</font><font class=3D"font19">y</font><font
+  class=3D"font17">&gt;Abscissa and ordinate</font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.drag((200,300),(300,400),10)</td>
+ </tr>
+ <tr height=3D38 style=3D'mso-height-source:userset;height:28.5pt'>
+  <td height=3D38 class=3Dxl79 width=3D251 style=3D'height:28.5pt;border-to=
+p:none;
+  width:188pt'>shellSwipeExecute((x1, y1), (x2, y2))</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>shell
+  swipe method;&lt;<font class=3D"font19">x</font><font class=3D"font17">&g=
+t;&lt;</font><font
+  class=3D"font19">y</font><font class=3D"font17">&gt;Abscissa and ordinate=
+</font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.shellSwipeExecute((x1,
+  y1), (x2, y2))</td>
+ </tr>
+ <tr height=3D46 style=3D'mso-height-source:userset;height:34.5pt'>
+  <td height=3D46 class=3Dxl79 width=3D251 style=3D'height:34.5pt;border-to=
+p:none;
+  width:188pt'>shellTouchExecute(<font class=3D"font13">x</font><font
+  class=3D"font12">,</font><font class=3D"font13">y</font><font class=3D"fo=
+nt12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>shell
+  tap method;&lt;<font class=3D"font19">x</font><font class=3D"font17">&gt;=
+&lt;</font><font
+  class=3D"font19">y</font><font class=3D"font17">&gt;Abscissa and ordinate=
+</font></td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.shellTouchExecute(<font
+  class=3D"font13">x</font><font class=3D"font12">,</font><font class=3D"fo=
+nt13">y</font><font
+  class=3D"font12">)</font></td>
+ </tr>
+ <tr height=3D50 style=3D'mso-height-source:userset;height:37.5pt'>
+  <td height=3D50 class=3Dxl79 width=3D251 style=3D'height:37.5pt;border-to=
+p:none;
+  width:188pt'>dialNumber(<font class=3D"font13">number</font><font class=
+=3D"font12">)</font></td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Dial
+  the number</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.dialNumber('10086')</td>
+ </tr>
+ <tr height=3D40 style=3D'height:30.0pt'>
+  <td height=3D40 class=3Dxl79 width=3D251 style=3D'height:30.0pt;border-to=
+p:none;
+  width:188pt'>waitForUpdateOrSleep()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>if
+  getVersion() is None,Restart the server if no response and if Error occurs
+  when wait for update from view server, will use the sleep way</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.waitForUpdateOrSleep()</td>
+ </tr>
+ <tr height=3D60 style=3D'height:45.0pt'>
+  <td height=3D60 class=3Dxl79 width=3D251 style=3D'height:45.0pt;border-to=
+p:none;
+  width:188pt'>clearLog()</td>
+  <td class=3Dxl75 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Please
+  make sure that the mobile phone USB debug mode is on;Through the logcat
+  command to view and use some of the log file buffer;clear the log in logc=
+at
+  cache</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>self.phone.clearLog()</td>
+ </tr>
+ <tr height=3D260 style=3D'page-break-before:always;height:195.0pt'>
+  <td height=3D260 class=3Dxl79 width=3D251 style=3D'height:195.0pt;border-=
+top:none;
+  width:188pt'>initKeyNumPadDic()</td>
+  <td class=3Dxl76 width=3D514 style=3D'border-top:none;border-left:none;wi=
+dth:386pt'>Phone.keyNumDict
+  =3D {<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'0':
+  'KEYCODE_NUMPAD_0', <br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'1':
+  'KEYCODE_NUMPAD_1',<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'2':
+  'KEYCODE_NUMPAD_2',<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'3':
+  'KEYCODE_NUMPAD_3',<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'4':
+  'KEYCODE_NUMPAD_4',<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'5':
+  'KEYCODE_NUMPAD_5',<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'6':
+  'KEYCODE_NUMPAD_6',<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'7': 'KEY=
+CODE_NUMPAD_7',<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'8':
+  'KEYCODE_NUMPAD_8',<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>'9':
+  'KEYCODE_NUMPAD_9',<br>
+    <span style=3D'mso-spacerun:yes'>                     
+  </span>'ENTER':'KEYCODE_NUMPAD_ENTER'<br>
+    <span style=3D'mso-spacerun:yes'>                      </span>}</td>
+  <td class=3Dxl76 width=3D596 style=3D'border-top:none;border-left:none;wi=
+dth:447pt'>&nbsp;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D251 style=3D'width:188pt'></td>
+  <td width=3D514 style=3D'width:386pt'></td>
+  <td width=3D596 style=3D'width:447pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
+
+------=_NextPart_01CF864E.E2084E80
+Content-Location: file:///C:/27708E49/NST_Script_API_files/filelist.xml
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/xml; charset="utf-8"
+
+<xml xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef=3D"../NST_Script_API.htm"/>
+ <o:File HRef=3D"stylesheet.css"/>
+ <o:File HRef=3D"tabstrip.htm"/>
+ <o:File HRef=3D"sheet001.htm"/>
+ <o:File HRef=3D"filelist.xml"/>
+</xml>
+------=_NextPart_01CF864E.E2084E80--
